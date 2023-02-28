@@ -1,4 +1,4 @@
-import './app.css'
+import './App.css'
 import Card from './components/CardHabilidades';
 
 import { AiOutlineGithub, AiFillLinkedin } from 'react-icons/ai'
