@@ -172,8 +172,19 @@ body {
 
 
 @media (max-width: 600px) {
+    .profile {
+        margin-top: 50px;
+    }
+    
     .shieldSkills {
         display: flex;
         justify-content: center;
+    }
+    .footer .links {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .footer .areaLinks {
+        padding: 5px;
     }
 }
