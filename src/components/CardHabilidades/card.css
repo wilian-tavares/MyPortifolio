@@ -1,0 +1,44 @@
+.cardContainer {
+    box-sizing: content-box;
+    cursor: pointer;
+    height: 240px;
+    max-width: 600px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #03a7f9, #8f8c42);
+    line-height: 20px;
+
+
+
+    margin: 20px 0;
+    transition: 0.5s;
+}
+
+.cardContainer:hover {
+    scale: 1.07;
+}
+.cardContainer span {
+    color: rgb(255, 247, 0);
+}
+
+.cardContainer a:hover {
+    color: #fff;
+}
+
+
+.habilidades {
+    color: rgb(255, 247, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.descricao {
+   color: #fff;
+}
