@@ -90,8 +90,7 @@ function App() {
           <Card 
             projeto={'Wil Sorteios'}
             descricao={
-              "Wil Filmes é um site voltado sobre filmes, nele é listado os filmes mais populares,"+ 
-              "filmes no cinema e as próximas estreias. Podendo também adicionar seu filme favorito no Local Storage do navegador!"
+              "Wil Sorteios é um site com o intuito de criar sorteios de forma aleatória, podendo ser usado para sortear números das Loterias Federais Caixa como Mega-Sena, Quina, Lotofácil etc!"
             }
             conteitos={"REACT-JS, JAVASCRIPT, RESPONSIVE DESIGN, API-REST"}
 
