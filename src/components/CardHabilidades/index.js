@@ -14,10 +14,10 @@ export default function Card(
             
             <span>{conceitos}</span>
             
-            <a href={linkProjeto} target="_blanck" >{icon}{projeto} <span>Site do Projeto</span></a>
+            <a href={linkProjeto} target="_blanck" >{icon}{projeto}: <span>Site do Projeto</span></a>
 
 
-            <a href={linkGithub} target="_blank">{icon}Código  <span>Link para o código no GITHUB</span> </a>
+            <a href={linkGithub} target="_blank">{icon}Código:  <span>Link para o código no GITHUB</span> </a>
         </div>
     )
 }

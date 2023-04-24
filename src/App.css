@@ -6,12 +6,10 @@
     list-style-type: none;
 }
 :root {
-    /* --background-color: #ee6611; */
     --background-color: #CCC;
     --color-primary-text: #393939;
     --color-secundary-text: #555555;
     --color-white: #FFF;
-
 }
 
 html {
@@ -38,7 +36,6 @@ body {
     justify-content: space-evenly;
     width: 50%;
     height: 100%;
-
     color: var(--color-primary-text)
 }
 

@@ -124,13 +124,13 @@ function App() {
               "Este site não está Online mas tem o código dele no Github para quem tiver o interesse de testar."
             }   
 
-             icon={ <HiCursorClick size={22} color="#FFF" />}
-       
-            conceitos={"REACT-JS, JAVASCRIPT, RESPONSIVE DESIGN, , API-REST"}
-
+             conceitos={"REACT-JS, JAVASCRIPT, RESPONSIVE DESIGN, , API-REST"}
             
+             icon={ <HiCursorClick size={22} color="#FFF" />}
 
-            linkGithub={"https://github.com/wilian-tavares/Wil-Noticia"}
+             linkProjeto={"https://github.com/wilian-tavares/Wil-Noticia"}
+
+             linkGithub={"https://github.com/wilian-tavares/Wil-Noticia"}
            />
       </div>
         </section>

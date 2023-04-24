@@ -11,10 +11,8 @@
     padding: 20px;
 
     border-radius: 8px;
-    background-image: linear-gradient(to right, #03a7f9, #8f8c42);
+    background-color: black;
     line-height: 20px;
-
-
 
     margin: 20px 0;
     transition: 0.5s;
@@ -23,10 +21,17 @@
 .cardContainer:hover {
     scale: 1.07;
 }
+
+.cardContainer h2 {
+    color: white;
+}
 .cardContainer span {
-    color: rgb(255, 247, 0);
+    color: #6e7971;
 }
 
+.cardContainer a {
+    color: #6e7971;
+}
 .cardContainer a:hover {
     color: #fff;
 }
