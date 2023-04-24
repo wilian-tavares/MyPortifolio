@@ -45,7 +45,7 @@ function App() {
             </div>
 
             <div className='areaLinks'>
-              <a href='https://www.linkedin.com/in/wilian-oliveira-a91a1018a/' target={'_blank'}>
+              <a href='https://www.linkedin.com/in/wiliantavaresoliveira/' target={'_blank'}>
                 <AiFillLinkedin size={22} color="red" />
                   <span>Linkedin</span> 
                 <FiExternalLink size={22} color="red" />
