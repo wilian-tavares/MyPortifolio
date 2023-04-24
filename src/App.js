@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <div className='container'>
 
-      <div className='profile'>
+      <main className='profile'>
        <div className='logo'>
         <h1>Wilian Tavares</h1>
         <span>Desenvolvedor Front-end</span>
@@ -67,7 +67,7 @@ function App() {
           </span>
          </div>      
        </div>
-      </div>
+      </main>
 
       <div className='right'>
         <section className='container-projetos' id='projetos'>
