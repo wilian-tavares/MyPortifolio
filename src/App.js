@@ -35,28 +35,28 @@ function App() {
        </nav>   
        <div className='footer'>
           <div className='links'>
-            <img src={Imagem}/>
+            <img src={Imagem} alt="Wilian.png"/>
             <div className='areaLinks'>
               <a href='https://github.com/wilian-tavares' target={'_blank'}>
-                <AiOutlineGithub size={22} color="red" /> 
+                <AiOutlineGithub size={22} color='#393939' /> 
                 <span>Github</span>
-                <FiExternalLink  size={22} color="red" />
+                <FiExternalLink  size={22} color="#393939" />
               </a>
             </div>
 
             <div className='areaLinks'>
               <a href='https://www.linkedin.com/in/wiliantavaresoliveira/' target={'_blank'}>
-                <AiFillLinkedin size={22} color="red" />
+                <AiFillLinkedin size={22} color="#393939" />
                   <span>Linkedin</span> 
-                <FiExternalLink size={22} color="red" />
+                <FiExternalLink size={22} color="#393939" />
               </a>
             </div>
 
             <div className='areaLinks'>  
               <a  href="mailto:wilian1910@gmail.com" target={'_blank'}>
-              <CgMail size={22} color="red" />
+              <CgMail size={22} color="#393939" />
                   <span>Email</span> 
-                <FiExternalLink size={22} color="red" />
+                <FiExternalLink size={22} color="#393939" />
               </a>
             </div>
           </div>
@@ -135,7 +135,7 @@ function App() {
       </div>
         </section>
         <section className='containerSkills' id='containerSkills'>
-          <h2>SKILLS</h2>
+         
           <div className='shieldSkills'>
           
           <div className='cardSkills'>

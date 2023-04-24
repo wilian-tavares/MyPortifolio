@@ -5,6 +5,14 @@
     text-decoration: none;
     list-style-type: none;
 }
+:root {
+    /* --background-color: #ee6611; */
+    --background-color: #CCC;
+    --color-primary-text: #393939;
+    --color-secundary-text: #555555;
+    --color-white: #FFF;
+
+}
 
 html {
     scroll-behavior: smooth;
@@ -12,7 +20,7 @@ html {
 
 body {
     font-family: sans-serif;
-    background-image: linear-gradient(to left, rgb(163, 83, 58), rgb(223, 237, 31));
+    background-color: var(--color-white);
 }
 
 .container {
@@ -30,6 +38,8 @@ body {
     justify-content: space-evenly;
     width: 50%;
     height: 100%;
+
+    color: var(--color-primary-text)
 }
 
 .profile .logo {
@@ -44,10 +54,12 @@ body {
     margin-bottom: 30px;
     font-size: 40px;
     color: #46798a;
+    color: var(--color-secundary-text)
 }
 .profile .logo p {
     margin-top: 30px;
     line-height: 150%;
+    font-weight: 500;
 }
 
 .profile nav li {
@@ -55,8 +67,11 @@ body {
     margin: 10px 0;
 }
 
+.profile nav li a {
+    color: var(--color-secundary-text);
+}
 .profile nav li a:hover {
-    color: #60b26c;
+    color: #adadad;
 }
 
 .right {
@@ -88,14 +103,16 @@ body {
 
 .containerSkills span {
     margin: 20px 0;
-    color: rgb(64, 255, 0);
+    color: var(--primary-color);
     font-size: 24px;
     font-weight: bold;
+    text-decoration: underline;
 }
+
 .containerSkills li {
     font-weight: bold;
     font-size: 24px;
-    color: blue;
+    color: var(--color-secundary-text);
     padding: 10px 0;
 }
 
@@ -131,10 +148,12 @@ body {
 
 .footer .areaLinks span {
     margin: 0 5px;
+    color: var(--color-primary-text)
 }
 
 .footer .credits a {
     text-decoration: underline;
+    color:var(--color-primary-text)
 }
 
 
