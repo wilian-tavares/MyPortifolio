@@ -2,7 +2,7 @@ import './card.css';
 import { HiCursorClick } from 'react-icons/hi';
 
 export default function Card(
-    {props: habilidades, projeto, descricao, linkProjeto, linkGithub, conteitos, icon}
+    {props: habilidades, projeto, descricao, linkProjeto, linkGithub, conceitos, icon}
     ){
     return(
         <div className='cardContainer'>
@@ -12,7 +12,7 @@ export default function Card(
 
             <p className="descricao">{descricao}</p>
             
-            <span>{conteitos}</span>
+            <span>{conceitos}</span>
             
             <a href={linkProjeto} target="_blanck" >{icon}{projeto} <span>Site do Projeto</span></a>
 

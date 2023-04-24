@@ -79,7 +79,7 @@ function App() {
               "filmes no cinema e as próximas estreias. Podendo também adicionar seu filme favorito no Local Storage do navegador!"
             }
 
-            conteitos={"REACT-JS, JAVASCRIPT, RESPONSIVE DESIGN, API-REST"}
+            conceitos={"REACT-JS, JAVASCRIPT, RESPONSIVE DESIGN, API-REST"}
 
             icon={ <HiCursorClick size={22} color="#FFF" />}
             linkProjeto={"https://wilfilmes.netlify.app/"} 
@@ -92,7 +92,7 @@ function App() {
             descricao={
               "Wil Sorteios é um site com o intuito de criar sorteios de forma aleatória, podendo ser usado para sortear números das Loterias Federais Caixa como Mega-Sena, Quina, Lotofácil etc!"
             }
-            conteitos={"REACT-JS, JAVASCRIPT, RESPONSIVE DESIGN, API-REST"}
+            conceitos={"REACT-JS, JAVASCRIPT, RESPONSIVE DESIGN, API-REST"}
 
             icon={ <HiCursorClick size={22} color="#FFF" />}
 
@@ -107,7 +107,7 @@ function App() {
               "Wil Pokedex é um site sobre Pokemon, nele é listado mais de 900 Pokemons, nele é possível ver detalhes de cada Pokemon,"+
               "e adicioná-los em favoritos."
             }
-            conteitos={"REACT-JS, JAVASCRIPT, RESPONSIVE DESIGN, API-REST"}
+            conceitos={"REACT-JS, JAVASCRIPT, RESPONSIVE DESIGN, API-REST"}
 
             icon={ <HiCursorClick size={22} color="#FFF" />}
 
@@ -126,9 +126,9 @@ function App() {
 
              icon={ <HiCursorClick size={22} color="#FFF" />}
        
-            conteitos={"REACT-JS, JAVASCRIPT, RESPONSIVE DESIGN, , API-REST"}
+            conceitos={"REACT-JS, JAVASCRIPT, RESPONSIVE DESIGN, , API-REST"}
 
-            linkProjeto={"https://wilfilmes.netlify.app/"}
+            
 
             linkGithub={"https://github.com/wilian-tavares/Wil-Noticia"}
            />
