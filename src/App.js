@@ -6,7 +6,7 @@ import { FiExternalLink } from 'react-icons/fi';
 import { CgMail } from 'react-icons/cg';
 import { HiCursorClick } from 'react-icons/hi';
 
-import Imagem from '../src/assets/imagens/wilian.jpg'
+import Imagem from '../src/assets/imagens/wilian.png'
 
 function App() {
   return (
