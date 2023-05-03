@@ -18,21 +18,12 @@ function App() {
         <h1>Wilian Tavares</h1>
         <span>Desenvolvedor Front-end</span>
           <p>
-            Seja bem vindo ao meu Portifólio, nele está alguns dos meu projetos
-            e meus contatos para entrar em contato comigo!
+          Bem-vindo ao meu Portfólio! Aqui você encontrará alguns dos meus projetos de desenvolvimento front-end, 
+          além dos meus contatos para entrar em contato comigo.
           </p>
        </div>
 
-       <nav>
-        <ul>
-          <li>
-            <a href='#projetos'>Projetos</a>
-          </li>
-          <li>
-            <a href='#containerSkills'>Skills</a>
-          </li>    
-        </ul>
-       </nav>   
+        
        <div className='footer'>
           <div className='links'>
             <img src={Imagem} alt="Wilian.png"/>
@@ -65,11 +56,24 @@ function App() {
           <span>Design by: 
             <a href='https://dribbble.com/NicolasMzrd' target='_blanck'>Nicolas Meuzard</a>
           </span>
-         </div>      
+         </div>    
+
+         <nav>
+        <ul>
+          <li>
+         
+            <a href='#projetos'> <HiCursorClick size={22} color="#CCC" />Projetos</a>
+          </li>
+          <li>
+            <a href='#containerSkills'> <HiCursorClick size={22} color="#CCC" />Skills</a>
+            
+          </li>    
+        </ul>
+       </nav>    
        </div>
       </main>
 
-      <div className='right'>
+      <div className='projetos'>
         <section className='container-projetos' id='projetos'>
           <div className='shieldCards'>
           <Card 
@@ -134,6 +138,7 @@ function App() {
            />
       </div>
         </section>
+
         <section className='containerSkills' id='containerSkills'>
          
           <div className='shieldSkills'>
@@ -143,9 +148,11 @@ function App() {
            <nav>
             <ul>
               <li>HTML</li>
-              <li>CSS</li>
+              <li>CSS, SCSS;</li>
               <li>JAVASCRIPT</li>
               <li>REACT-JS</li>
+              <li>TYPESCRIPT;</li>
+              <li>GIT, GITHUB;</li>
             </ul>
           </nav> 
           </div>
