@@ -50,18 +50,10 @@ function App() {
                 <FiExternalLink size={22} color="#393939" />
               </a>
             </div>
-          </div>
-
-         <div className='credits'>
-          <span>Design by: 
-            <a href='https://dribbble.com/NicolasMzrd' target='_blanck'>Nicolas Meuzard</a>
-          </span>
-         </div>    
-
+          </div>   
          <nav>
         <ul>
           <li>
-         
             <a href='#projetos'> <HiCursorClick size={22} color="#CCC" />Projetos</a>
           </li>
           <li>
@@ -148,7 +140,7 @@ function App() {
            <nav>
             <ul>
               <li>HTML</li>
-              <li>CSS, SCSS;</li>
+              <li>CSS, SASS;</li>
               <li>JAVASCRIPT</li>
               <li>REACT-JS</li>
               <li>TYPESCRIPT;</li>

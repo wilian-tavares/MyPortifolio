@@ -97,6 +97,11 @@ body {
     align-items: center;
 }
 
+.footer .links img {
+    width: 100px;
+    height: 100px;
+}
+
 .cardSkills {
     margin: 20px 0;
 }
